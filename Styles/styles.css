@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: absolute;
+    background-color:#D1891C ;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.parrafo{
+    font-style: normal;
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+.primerdiv{
+    position: absolute;
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    box-sizing: border-box;
+
+}
+
+.primerh1{
+    position: relative;
+    left: 30px;
+    box-sizing: border-box;
+    top: 27px;
+    color: white;
+}
+
+.sectionM{
+    position: relative;
+    top: 300px;
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 532px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.divBat{
+position: relative;
+}
+
+.flexDiv{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    bottom: 25px;
+}
+
+.imagenBatman{
+    position:relative;
+    border-radius: 100%;
+    bottom:70px;
+    left: 92px;
+}
+
+.divParrafo1{
+    position: relative;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.parrafo1{
+    position: relative;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding: 18px;
+    bottom: 90px;
+}
+
+.titBat{
+    position: relative;
+    bottom: 70px;
+    left: 92px;
+}
+
+.boton1{
+    position: relative;
+    bottom: 70px;
+    left: 92px;
+    background-color: #00669F;
+    max-height: 50px;
+    max-width: 100px;
+    color: white;
+}
+
+.boton1:hover{
+    background-color: red;
+}
+
+.imagenCorazon{
+    position: relative;
+    bottom: 280px;
+    right: 110px;
+    box-sizing: border-box;
+}
+
+.footer{
+    position: relative;
+    top: 400px;
+    background-color: #00669F;
+    color: white;
+    margin: auto;
+    max-height: 90px;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.derechos{
+    position: relative;
+    left: 15px;
+
+}
+
+.organizandoMaravilla{
+    height: 193px; 
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.imagenMaravilla{
+    position: relative;
+    border-radius: 100%;
+    height:120px ;
+    width: 118px;
+    bottom:70px;
+    left: 92px;
+    
+}
+
+.editandoSuper{
+    height: 193px; 
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.imagenSuperman{
+    position: relative;
+    border-radius: 100%;
+    height:120px ;
+    width: 118px;
+    bottom:70px;
+    left: 92px;
+}
+
+.logoGit{
+    height: 27px;
+    margin-left: 40px;
+}
+/* .cajaMain{
+    position: relative;
+    background-color: #1CD1B0;
+} */
+
+@media screen and (max-width:600px) {
+    .flexDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionM{
+        margin: 10px;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .flexDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionM{
+        margin: 10px;
+    }
+    
+}
