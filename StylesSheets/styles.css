@@ -1,0 +1,13 @@
+/*Modelo de caja se empieza asi la estructura
+Solo de debe poner eso como maximo en el 
+general*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.descuento{
+    background-color: green;
+    padding: auto;
+    color: brown;
+}
