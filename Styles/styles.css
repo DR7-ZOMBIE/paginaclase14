@@ -80,7 +80,10 @@ position: relative;
     text-align: left;
     align-items: center;
     padding: 18px;
-    bottom: 90px;
+    bottom: 70px;
+    font-weight: bold;
+    font-size: 100%;
+    
 }
 
 .titBat{
@@ -186,8 +189,9 @@ position: relative;
 
 @media screen and (max-width:1000px) {
     .flexDiv{
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        
     }
 
     .sectionM{
